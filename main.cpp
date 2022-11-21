@@ -1,12 +1,12 @@
 #include "TelCoColurCoder.hpp"
 
-TelCoColorCoder::MajorColor getMajor() {
+ColorPair::MajorColor getMajor() {
     return majorColor;
  }
-TelCoColorCoder:: MinorColor getMinor() {
+ColorPair:: MinorColor getMinor() {
       return minorColor;
  }
-TelCoColorCoder::std::string ToString() {
+ColorPair::std::string ToString() {
   std::string colorPairStr = MajorColorNames[majorColor];
   colorPairStr += " ";
   colorPairStr += MinorColorNames[minorColor];
