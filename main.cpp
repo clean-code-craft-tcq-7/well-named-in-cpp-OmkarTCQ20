@@ -1,6 +1,19 @@
 #include <iostream>
 #include <assert.h>
 
+MajorColor getMajor() {
+    return majorColor;
+ }
+ MinorColor getMinor() {
+      return minorColor;
+ }
+ std::string ToString() {
+  std::string colorPairStr = MajorColorNames[majorColor];
+  colorPairStr += " ";
+  colorPairStr += MinorColorNames[minorColor];
+   return colorPairStr;
+ }
+
 void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
