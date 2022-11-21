@@ -1,5 +1,5 @@
-#ifndef TelCoColurCoder_HPP_INCLUDED
-#define TelCoColurCoder_HPP_INCLUDED
+#ifndef TelCoColurCoder_HPP
+#define TelCoColurCoder_HPP
 
 #include <iostream>
 #include <assert.h>
