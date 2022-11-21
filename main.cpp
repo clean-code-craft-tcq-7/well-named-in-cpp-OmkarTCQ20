@@ -14,14 +14,14 @@ TelCoColorCoder :: int GetPairNumberFromColor(MajorColor major, MinorColor minor
         return major * numberOfMinorColors + minor + 1;
   }
 
-ColorPair::MajorColor getMajor() {
+TelCoColorCoder :: ColorPair::MajorColor getMajor() {
     return majorColor;
  }
-ColorPair:: MinorColor getMinor() {
+TelCoColorCoder :: ColorPair:: MinorColor getMinor() {
       return minorColor;
  }
 
- std::string ToString() {
+TelCoColorCoder :: ColorPair::std::string ToString() {
   std::string colorPairStr = MajorColorNames[majorColor];
   colorPairStr += " ";
   colorPairStr += MinorColorNames[minorColor];
