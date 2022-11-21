@@ -43,5 +43,7 @@ void testNumberToPair(int pairNumber,
  ColorPair GetColorFromPairNumber(int pairNumber);
  int GetPairNumberFromColor(MajorColor major, MinorColor minor);
     
-}   
+  MajorColor getMajor();
+  MinorColor getMinor();
+  }   
 #endif
