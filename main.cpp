@@ -25,7 +25,7 @@ ColorPair:: MinorColor getMinor() {
    return colorPairStr;
  }
 
-TelCoColorCoder :: void testNumberToPair(int pairNumber,
+void testNumberToPair(int pairNumber,
     TelCoColorCoder::MajorColor expectedMajor,
     TelCoColorCoder::MinorColor expectedMinor)
 {
@@ -36,7 +36,7 @@ TelCoColorCoder :: void testNumberToPair(int pairNumber,
     assert(colorPair.getMinor() == expectedMinor);
 }
 
-TelCoColorCoder :: void testPairToNumber(
+void testPairToNumber(
     TelCoColorCoder::MajorColor major,
     TelCoColorCoder::MinorColor minor,
     int expectedPairNumber)
