@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <assert.h>
+#include <cstring.h>
 
 namespace TelCoColorCoder
 {
