@@ -1,4 +1,4 @@
-#include "colorCode_Enum.hpp"
+#include "ColorCode_enum.hpp"
 #include "TelCoColorCoder.hpp"
 
 void testNumberToPair(int pairNumber, MajorColor expectedMajor,MinorColor expectedMinor)
