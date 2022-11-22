@@ -4,7 +4,7 @@
 #include <iostream>
 #include <assert.h>
 #include <string>
-#include "colorCode_Enum.hpp"
+#include "ColorCode_enum.hpp"
 
 namespace TelCoColorCoder
 {
