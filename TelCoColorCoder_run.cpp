@@ -32,7 +32,7 @@ int main() {
     testNumberToPair(4, WHITE,BROWN);
     testNumberToPair(5, WHITE,SLATE);
 
-    testPairToNumber(BLACK, TORANGE, 12);
+    testPairToNumber(BLACK, RANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
     return 0;
