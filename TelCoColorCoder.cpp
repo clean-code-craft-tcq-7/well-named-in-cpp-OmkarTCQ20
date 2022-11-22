@@ -8,11 +8,11 @@
 
  int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-TelCoColorCoder ::  ColorPair :: MajorColor getMajor() {
+ MajorColor TelCoColorCoder ::  ColorPair :: getMajor() {
                 return majorColor;
   }
 
-TelCoColorCoder ::  ColorPair :: MinorColor getMinor() {
+MinorColor TelCoColorCoder ::  ColorPair ::  getMinor() {
                 return minorColor;
  }
 
