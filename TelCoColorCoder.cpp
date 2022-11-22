@@ -6,6 +6,8 @@
 
  const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
+ int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+
 TelCoColorCoder ::  ColorPair :: MajorColor getMajor() {
                 return majorColor;
   }
