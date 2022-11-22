@@ -1,4 +1,4 @@
-#include "TelCoColurCoder.hpp"
+#include "TelCoColorCoder.hpp"
 
  const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 
