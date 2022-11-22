@@ -1,4 +1,4 @@
-#include "TelCoColurCoder.hpp"
+#include "TelCoColorCoder.hpp"
 
 void testNumberToPair(int pairNumber, MajorColor expectedMajor,MinorColor expectedMinor)
 {
